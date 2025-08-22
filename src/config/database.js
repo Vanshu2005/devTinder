@@ -4,10 +4,7 @@ const connectDB = async () => {
     try {
         await mongoose.connect(
             "mongodb+srv://vanshikaagrawal309:vanshika@namastenode.8fqwcsj.mongodb.net/devTinder",
-            {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-        });
+            );
         console.log("MongoDB connected successfully");
         return true;
     } catch (error) {
