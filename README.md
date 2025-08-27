@@ -42,7 +42,7 @@ DevTinder/
 
 Clone the repository
 
-git clone https://github.com/your-username/devtinder.git
+git clone https://github.com/Vanshu2005/devTinder.git
 cd devtinder
 
 
